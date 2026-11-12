@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roland Mods and Synth Mods: Rosetta OS custom firmware</title>
+<meta name="description" content="Rosetta: free, open-source mods and custom firmware for Roland gear (D-110, D-70, PRO-E, GP-16, OCTA-CAPTURE, SP-808, VS-840EX, U-110) plus Akai S2000, Casio SK-1, Kurzweil 1000, Sony HR-GP5, Yamaha PSS-270 and TC M-One. Unofficial.">
+<link rel="canonical" href="https://yuyoi.github.io/">
+<meta property="og:title" content="Roland Mods and Synth Mods: Rosetta OS">
+<meta property="og:description" content="Free, open-source custom firmware and mods for vintage Roland, Akai, Casio, Kurzweil, Sony and Yamaha gear.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yuyoi.github.io/">
+<meta property="og:image" content="https://yuyoi.github.io/img/hexgirl_icon.png">
+<link rel="icon" href="img/hexgirl_icon.png">
+<style>
+:root{--bg:#0f1318;--card:#171d24;--line:#2a3340;--text:#e4e9ef;--dim:#9aa6b4;--acc:#4fa3ff;--ok:#58c27d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,"Segoe UI",Roboto,sans-serif}
+main{max-width:1060px;margin:0 auto;padding:28px 16px 60px}
+header{display:flex;gap:20px;align-items:center;margin-bottom:10px}
+header img{width:96px;height:96px;border-radius:50%;flex:none}
+h1{font-size:clamp(26px,4.4vw,40px);line-height:1.15;margin:0}
+.lede{color:var(--dim);margin:12px 0 30px;max-width:760px}
+h2{font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin:36px 0 12px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+a.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;color:var(--text);text-decoration:none}
+a.card:hover{border-color:var(--acc)}
+.card h3{margin:0 0 6px;font-size:18px;color:#fff}
+.card p{margin:0;color:var(--dim);font-size:14.5px}
+.tag{display:inline-block;font-size:12px;margin-top:8px;color:var(--acc)}
+footer{margin-top:44px;color:var(--dim);font-size:13.5px;border-top:1px solid var(--line);padding-top:14px}
+footer a,.lede a{color:var(--acc)}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Rosetta mods","url":"https://yuyoi.github.io/",
+ "description":"Free, open-source custom firmware and mods for Roland and other vintage music gear. Unofficial."}
+</script>
+</head>
+<body>
+<main>
+<header>
+<img src="img/hexgirl_icon.png" alt="Rosetta Hex Girl badge">
+<h1>Roland mods and synth mods: Rosetta OS</h1>
+</header>
+<p class="lede">Free, open-source custom firmware, sample ROMs and tools for vintage Roland gear (D-110, D-70, PRO-E, GP-16, OCTA-CAPTURE, SP-808, VS-840EX, U-110) and more: Akai S2000, Casio SK-1, Kurzweil 1000, Sony HR-GP5, Yamaha PSS-270 and TC M-One. No factory code is shipped: the tools patch your own ROM dumps. Talk to us on <a href="https://discord.gg/R3CQkFdRtf">Discord</a>.</p>
+
+<h2>Roland mods</h2>
+<div class="grid">
+<a class="card" href="https://yuyoi.github.io/D110-rosetta-OS-v11/"><h3>Roland D-110 mod: Rosetta OS</h3><p>Custom OS with arpeggiator, step sequencer, MIDI out, MIDI CC knobs, wave sequencing, mod matrix, unison, glide and chords.</p><span class="tag">Tested on hardware</span></a>
+<a class="card" href="https://github.com/yuyoi/Rompler-RosettaRom"><h3>Roland D-110 custom samples</h3><p>Swap the PCM mask ROMs for flash and load your own sounds. Record on your PC, burn, play.</p><span class="tag">Works on hardware</span></a>
+<a class="card" href="https://yuyoi.github.io/D70-Rosetta-Os/"><h3>Roland D-70 mod: Rosetta OS</h3><p>Live synth pages, new effects on the effects chip (drive, bit crush, decimator, rectifier, resonant filters), custom U-110 cards and a keyboard fix.</p><span class="tag">Tested on hardware</span></a>
+<a class="card" href="https://yuyoi.github.io/Rosetta-E-Style-studio-and-Pro-E-mods/"><h3>Roland PRO-E mod: Rosetta OS</h3><p>Juno mode, arpeggiator, Juno PWM, resonant filter, Juno chorus on the reverb chip, your own long samples and styles from MIDI files.</p><span class="tag">Tested on a real PRO-E</span></a>
+<a class="card" href="https://yuyoi.github.io/super-Gp-16-Rosetta-OS/"><h3>Roland GP-16 mod: Super GP-16</h3><p>60 pedal and 12 amp voicings, real knob names, live 0-10 knobs, pedalboard and rig modes, cab sims. Drop-in flash chip, no wires.</p></a>
+<a class="card" href="https://yuyoi.github.io/octa-capture-rosetta-OS/"><h3>Roland OCTA-CAPTURE mod (UA-1010)</h3><p>Rosetta boot screen, channel strip (EQ, tube, comp) on all 8 inputs, a guitar amp in the unit's own DSP, and the Rosetta Octa Control PC editor.</p><span class="tag">On hardware</span></a>
+<a class="card" href="https://github.com/yuyoi/Sp-808-rosetta-looper-OS-"><h3>Roland SP-808 mod: looper OS</h3><p>Turns the SP-808 Groove Sampler into a guitar looper and MPC-style sampler. Installs from a Zip or ZuluIDE SD card.</p></a>
+<a class="card" href="https://github.com/yuyoi/sp-808-disk-studio"><h3>Roland SP-808 Disk Studio</h3><p>SP-808 / SP-808EX Zip disk tool: export pads as WAV, import your own WAVs, install firmware. R-DAC codec reverse engineered.</p></a>
+<a class="card" href="https://github.com/yuyoi/vs-840ex-sampler-conversion-Rosetta-OS"><h3>Roland VS-840EX mod: Rosetta OS</h3><p>Sampler, looper and synth conversion for the VS-840EX, ported from the SP-808 Rosetta OS.</p></a>
+<a class="card" href="https://github.com/yuyoi/u110-romhex-studio"><h3>Roland U-110 custom sample cards</h3><p>Free Windows app that builds SN-U110 format PCM cards from WAV files, with a loop editor and U-110-accurate preview.</p></a>
+</div>
+
+<h2>Other synth and sampler mods</h2>
+<div class="grid">
+<a class="card" href="https://yuyoi.github.io/Akai-S2000-Rosetta-OS/"><h3>Akai S2000 mod: Rosetta OS</h3><p>Reverb, echo and reverse delay without the EB16 board, live input FX, a synth rompler and MPC-style menus. Boots from a Gotek.</p><span class="tag">Tested on hardware</span></a>
+<a class="card" href="https://yuyoi.github.io/Casio-Sk1-Rosetta-OS/"><h3>Casio SK-1 mod: custom sample ROM</h3><p>Replace the preset ROM with an EEPROM and load your own sounds from WAVs or Akai/Roland sample CDs, with custom loops.</p><span class="tag">Works on a real SK-1</span></a>
+<a class="card" href="https://yuyoi.github.io/Kurzweil-1000-Rosetta/"><h3>Kurzweil 1000 (K1000) mod</h3><p>Custom samples for the 1000 GX: K1000 Studio turns WAVs into wave ROMs and new patches, factory sounds stay.</p><span class="tag">Hardware test in progress</span></a>
+<a class="card" href="https://yuyoi.github.io/Sony-HR-GP5-Rosetta-OS/"><h3>Sony HR-GP5 / HR-MP5 mod</h3><p>Rosetta OS custom firmware with a 15-voice polyphonic MIDI synth on the TMS57002 DSP and new menus.</p><span class="tag">Tested on hardware</span></a>
+<a class="card" href="https://yuyoi.github.io/Pss-270-MegaDX/"><h3>Yamaha PSS-270 mod: Mega DX</h3><p>An Arduino Mega + ESP8266 takes over the YM2413 FM chip and keys: MIDI in/out, arpeggiator, live FM tone editor, WiFi updates.</p></a>
+<a class="card" href="https://github.com/yuyoi/M-one-rack-screen-and-os-mod-"><h3>TC Electronic M-One mod</h3><p>An ESP32-S3 loads new DSP programs into the DSP56362 over its debug port and drives a colour screen.</p></a>
+</div>
+
+<h2>Tools</h2>
+<div class="grid">
+<a class="card" href="https://github.com/yuyoi/AKAI-CD-ISO-MAKER"><h3>Akai CD ISO Maker</h3><p>Build, read, edit and export Akai S1000/S2000/S3000 sampler CDs from WAV/MP3/FLAC. WAV/SFZ/SF2 export.</p><span class="tag">Hardware-untested</span></a>
+<a class="card" href="https://github.com/yuyoi/esp32-maskrom-programmer"><h3>ESP32 mask ROM programmer</h3><p>An ESP32-S3 that writes 512 KB images into an SST39SF040 flash chip over USB or WiFi. Built to burn U-110 cards.</p></a>
+<a class="card" href="https://github.com/yuyoi/cintiq-hybrid-linux-ROSETTA-"><h3>Cintiq Companion Hybrid Linux</h3><p>Boot real Linux on the Wacom Cintiq Companion Hybrid (DTH-A1300) through the recovery slot, Android untouched.</p></a>
+<a class="card" href="https://github.com/yuyoi/Glitch-studio-graphics-software"><h3>Glitch Lab</h3><p>A lo-fi glitch painting app with pen-pressure glitch brushes and glitch filters.</p></a>
+</div>
+
+<footer>Unofficial fan projects. Not affiliated with or endorsed by Roland, Akai, Casio, Kurzweil, Sony, Yamaha or TC Electronic; their names are used only to say which gear a mod is for. No factory firmware or sample data is distributed. Source on <a href="https://github.com/yuyoi">GitHub</a>.</footer>
+</main>
+</body>
+</html>
